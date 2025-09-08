@@ -1,3 +1,7 @@
+## Update
+
+corrected paths for most recent LOS 22.2 (Android 15) and Magisk v29.0
+
 # Disable Camera Sounds
 This module "disables" the camera shutter and video recording sounds by replacing the following .ogg with muted files.
 
