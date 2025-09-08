@@ -1,10 +1,12 @@
+## Update paths so this works with most recent Magisk, LOS 22.2 and Android 15
+
 # Disable Camera Sounds
 This module "disables" the camera shutter and video recording sounds by replacing the following .ogg with muted files.
 
-/system/media/audio/camera_click.ogg
-/system/media/audio/camera_focus.ogg
-/system/media/audio/VideoRecord.ogg
-/system/media/audio/VideoStop.ogg
+/system/media/audio/ui/camera_click.ogg
+/system/media/audio/ui/camera_focus.ogg
+/system/media/audio/ui/VideoRecord.ogg
+/system/media/audio/ui/VideoStop.ogg
 
 The default camera app still plays the file (a ~1sec file with no sound), but we can't hear the sound.
 
