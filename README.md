@@ -1,6 +1,8 @@
 ## Update
 
-corrected paths for most recent LOS 22.2 (Android 15) and Magisk v29.0
+* I corrected the paths for most recent LOS 22.2 (Android 15) and tested with Magisk v29.0
+* I also realized this silients screenshot sounds because LOS reuses camera_click.ogg as screenshot sound which is a nice side effect
+
 
 # Disable Camera Sounds
 This module "disables" the camera shutter and video recording sounds by replacing the following .ogg with muted files.
